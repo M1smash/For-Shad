@@ -1,0 +1,51 @@
+{
+    "clientId": "49115884467049117",
+    "gameId": "1207665503",
+    "language": "English",
+    "languages": [
+        "en-US"
+    ],
+    "name": "Terraria",
+    "playTasks": [
+        {
+            "category": "game",
+            "isPrimary": true,
+            "languages": [
+                "en-US"
+            ],
+            "name": "Terraria",
+            "path": "Terraria.exe",
+            "type": "FileTask"
+        },
+        {
+            "category": "document",
+            "languages": [
+                "en-US"
+            ],
+            "link": "http://www.gog.com/support/terraria",
+            "name": "Support",
+            "type": "URLTask"
+        },
+        {
+            "arguments": "-config serverconfig.txt",
+            "category": "tool",
+            "languages": [
+                "en-US"
+            ],
+            "name": "Start Server",
+            "path": "TerrariaServer.exe",
+            "type": "FileTask"
+        },
+        {
+            "category": "document",
+            "languages": [
+                "en-US"
+            ],
+            "name": "Open Server Configuration File",
+            "path": "serverconfig.txt",
+            "type": "FileTask"
+        }
+    ],
+    "rootGameId": "1207665503",
+    "version": 1
+}
